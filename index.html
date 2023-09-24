@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo  border ">
+                <div class="logo"></div>
+
+            </div>
+
+            <div class="border">
+                <div class="nav-address">
+                    <p style="border-color: #0f1111;" class="add-first ">Deliver To</p>
+                    <div style="border-color: #0f1111;" class="add-icon ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p style="border-color: #0f1111;" class="add-second">PAKISTAN</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav-search">
+                <select style="border-color: orange;" class="search-select">
+                    <option> ALL</option>
+                    <option style="font-size: 1rem;">Arts & Crafts</option>
+                    <option style="font-size: 1rem;"> Automotive</option>
+                    <option style="font-size: 1rem;">Books </option>
+                    <option style="font-size: 1rem;"> Digital Music </option>
+                    <option style="font-size: 1rem;"> Deals </option>
+                    <option style="font-size: 1rem;"> Home & Kithen </option>
+                    <option style="font-size: 1rem;">Movies & Tv </option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+
+            </div>
+            <div class="border">
+                <div class="language-img ">
+                    <img style="border: 2px solid transparent; border-color: #0f1111;" width="30px"
+                        src="data:image/jpeg;base64,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"
+                        alt="">
+                    ENG
+                    <i style="border: none;" class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+            <div class="border">
+                <div class="nav-signin ">
+                    <p style="border: 2px solid transparent; border-color: #0f1111;"> <span
+                            style="border: 2px solid transparent; border-color: #0f1111;">Hello,Sign in</span></p>
+                    <p style="border: 2px solid transparent; border-color: #0f1111;" class="nav-second">Account & Lists
+                    </p>
+                </div>
+            </div>
+
+            <div class="border">
+                <div class="nav-return">
+                    <p style="border: 2px solid transparent; border-color: #0f1111;"> <span
+                            style="border: 2px solid transparent; border-color: #0f1111;">Return</span></p>
+                    <p style="border: 2px solid transparent; border-color: #0f1111;" class="nav-third">& Orders</p>
+                </div>
+            </div>
+            <div class="border" style="height: 30px;">
+                <div class="nav-cart ">
+                    <i style="border: 2px solid transparent; border-color: #0f1111;" class="fa-solid fa-cart-plus"></i>
+                    Cart
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+  <div  class="panel ">
+        <div class="panel-all border">
+            <i  class="fa-solid fa-bars ">     </i>
+            All
+         </div>
+        <div class="panel-opt border">
+            <p>Today's Deals</p>
+            <p> Customer Service </p>
+            <p> Registry</p>
+            <p> Gift Cards</p>
+            <p> Sell</p>
+
+        </div>
+    </div>
+    </header>
+
+<!-- hero -->
+<div class="hero-section">
+<div class="hero-msg box-signin">
+    <p>Sign in for the best experience</p>
+    <button class="signin"> <a  href="./signin.html ">Sign in Securely </a></button>
+</div>
+    </div>
+
+    </div>
+    
+<div class="shop-section">
+    <div class="box1 box">
+       <div class="box-content">
+        <h2>Health & Personal Care</h2>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg" alt="pic1">
+          <p style="padding-top: 20px;" > <span style="font-size: 15px;"> <a   href="#">see more</a> </span></p>
+       </div>
+        </div>
+    <div class="box2 box"> 
+        <div class="box-content">
+            <h2>Electronics</h2>
+            <img style="width: 290px;" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" alt="pic2">
+              <p style="padding-top: 20px;" > <span style="font-size: 15px;"><a   href="#">see more</a></span></p>
+           </div>
+          
+
+    </div>
+    <div class="box3 box"> 
+        <div class="box-content">
+            <h2> Home & Kitchen Under $30
+               
+            </h2>
+            <img   src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469391_2584745_379x304_1X_en_US._SY304_CB609304299_.jpg" alt=" pic 3">
+            <p style="padding-top: 10px;" ><span style="font-size: 15px;">  <a   href="#">see more</a></span></p>
+        </div>
+    </div>
+    <div class="box4 box"> 
+        <div class="box-content">
+            <h2>Beauty Picks</h2>
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" alt="pic 4">
+            <p style="padding-top: 20px;" > <span style="font-size: 15px;"> <a   href="#">see more</a></span></p>
+        </div>
+    </div>
+   
+   
+        </div>
+        <div class="deal-section">
+            <div class="deal-1 box-return"> 
+                <div class="deal-content">
+                    <h2>Exciting Deals <span><a style="font-size: 15px;" href="#">see all address </a></span></h2> 
+<img style="margin-left: 50px;" src="https://m.media-amazon.com/images/I/51bzb3PsLDL._AC_SY200_.jpg" alt="tv">
+
+<img style="height: 190px; width: 225px; margin-top: 30px; margin-left: 70px;" src="https://m.media-amazon.com/images/I/41vANZDPuCL._AC_SY200_.jpg" alt="img">
+
+<img  style="height: 184px; width: 72px; margin-top: 30px; margin-left: 70px;"  src="https://m.media-amazon.com/images/I/31lWPC96p5L._AC_SY200_.jpg" alt=" picture">
+
+<img style="height: 184px; width: 126px; margin-top: 30px; margin-left: 90px;"  src="https://m.media-amazon.com/images/I/31d7Az-qXvL._AC_SY200_.jpg" alt="pic">
+
+<img style="height: 184px; width: 250px; margin-top: 30px; margin-left: 40px;" src="https://m.media-amazon.com/images/I/51baAXdzm+L._AC_SY200_.jpg" alt="">
+ 
+<div class="price">
+    <div class="price-set">
+    <h2> <span style="background-color: #e81a1a; font-size: 20px; color: white;">45% off </span>   <span> <a style="font-size: 13px; color: #e81a1a; margin-left: 10px;" href="#">Deal </a></span></h2> 
+<h3 >$ 32.90</h3>
+<span class="a-truncate-cut" aria-hidden="true" style="height: 1.3em;">LG 27" Ultragear QHD (2560x1440) G…</span>
+</div>           
+
+<div  class="price-set"  >
+    <h2> <span style="background-color: #e81a1a; font-size: 20px; color: white; margin-left: 20px;">12% off </span>   <span> <a style="font-size: 13px; color: #e81a1a; margin-left: 10px;" href="#">Deal </a></span></h2> 
+<h3 >$ 56.00</h3>
+<span class="a-truncate-cut" aria-hidden="true" style="height: 1.3em;">Summit Treestands Pair of Replaceme…</span>
+                
+ </div>   
+
+ <div  class="price-set"  >
+    <h2> <span style="background-color: #e81a1a; font-size: 20px; color: white; ">35% off </span>   <span> <a style="font-size: 13px; color: #e81a1a; margin-left: 10px;" href="#">Deal </a></span></h2> 
+<h3>$ 53.32</h3>
+<span class="a-truncate-cut" aria-hidden="true" style="height: 1.3em;">Fulton XP10 0101 Swivel Trailer Tong…</span>
+                
+ </div>   
+
+ <div class="price-set"  >
+    <h2> <span style="background-color: #e81a1a; font-size: 20px; color: white; ">34% off </span>   <span> <a style="font-size: 13px; color: #e81a1a; margin-left: 10px;" href="#">Deal </a></span></h2> 
+<h3 >$ 60.28</h3>
+<span class="a-truncate-cut" aria-hidden="true" style="height: 1.3em;">Louis Vuitton: The Complete Fashion…</span>
+                
+ </div>   
+
+ <div class="price-set"  >
+    <h2> <span style="background-color: #e81a1a; font-size: 20px; color: white; margin-left: 20px;">24% off </span>   <span> <a style="font-size: 13px; color: #e81a1a; margin-left: 10px;" href="#">Deal </a></span></h2> 
+<h3 style="margin-left: 20px;">$ 399.99</h3>
+<span class="a-truncate-cut" aria-hidden="true" style="height: 1.3em;">My First 100 Words Series Set.........</span>
+                
+ </div>   
+
+ </div>    
+  
+
+                </div>
+               
+            </div>
+        </div>
+
+
+        <footer>
+<div class="foot-panel1">
+    Back To Top
+</div>
+<div class="foot-panel2">
+    <ul>
+        <p>Get to Know Us</p>
+    <a href="">Careers</a>
+    <a href="">Blog</a>
+    <a href="">About Amazon</a>
+    <a href=""> Investor Relations</a>
+    <a href="">Amazon Devices</a>
+    <a href="">Amazon Science</a>
+
+    </ul>
+    <ul>
+        <p>Make Money with Us</p>
+    <a href="">Sell products on Amazon</a>
+    <a href="">Sell on Amazon Business</a>
+    <a href="">Sell apps on Amazon</a>
+    <a href=""> Become an Affiliate</a>
+    <a href="">Advertise Your Products</a>
+    <a href="">Self-Publish with Us</a>
+    <a href="">Host an Amazon Hub</a>
+    <a href="">›See More Make Money with Us</a>
+ 
+    
+    </ul>
+    <ul>
+        <p>Get to Know Us</p>
+    <a href="">Careers</a>
+    <a href="">Blog</a>
+    <a href="">About Amazon</a>
+    <a href=""> Investor Relations</a>
+    <a href="">Amazon Devices</a>
+    <a href="">Amazon Science</a>
+    
+    </ul>
+    <ul>
+        <p>Get to Know Us</p>
+    <a href="">Careers</a>
+    <a href="">Blog</a>
+    <a href="">About Amazon</a>
+    <a href=""> Investor Relations</a>
+    <a href="">Amazon Devices</a>
+    <a href="">Amazon Science</a>
+    
+    </ul>
+</div>
+
+<div class="foot-panel3">
+    <div class="logo">
+    </div>
+    <div class="language-selector">
+        <div class="globe-icon">
+            <i class="fa-solid fa-globe">
+            </i>
+           
+        </div>
+        <select>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+        </select>
+    </div>
+    <div class="dollar-text">
+        <div class="dollar-icon">
+            <i class="fa-solid fa-dollar-sign"></i>
+            USD-US.DOLLAR
+        </div>
+       
+    </div>
+</div>
+<div class="foot-panel4">
+    <div class="pages">
+      
+        <a style="margin-left: 10px;"  href="">  Condition of use</a>
+        <a  style="margin-left: 10px;" href=""> Privacy Notice</a>
+        <a  style="margin-left: 10px;" href=""> Your ads privacy choices</a>
+
+    </div>
+    <div class="copyright">
+        © 1996-2023, Amazon.com, Inc. or its affiliates
+    </div>
+</div>
+        </footer>
+
+</body>
+
+</html>

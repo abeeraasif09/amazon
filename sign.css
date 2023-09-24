@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    }  
+   
+   .navbar{
+    background-color: white;
+    height: 60px;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+   }
+   .navlogo{
+    height: 100px;
+    width: 183px;
+}
+   
+   
+   .logo img{
+
+    background-size: cover;
+    height: 170px;
+    width: 183px;
+  margin-bottom: 50px;
+}
+.box{
+    height: 350px;
+    
+    width: 348px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    border: 1px solid grey;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+ 
+    }
+    .form p{
+font-size: 1.85rem;
+margin-left: 20px;
+    }
+   .form h5{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .username{
+        margin-left: 20px;
+    }
+    .username input{
+        width: 300px;
+        height: 30px;
+      border-radius: 4px;
+      border: 1px solid grey;
+    }
+    .signin {
+        height: 35px;
+        width: 300px;
+        background-color: rgb(255, 238, 0);
+        font-weight: 400;
+        border: none;
+        color: #000000; 
+        border-radius: 10px;
+
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 0.3s; 
+    }
+    
+    .signin:hover {
+        background-color: rgb(255, 217, 0);
+    }
+    .signin a{
+        color: black;
+        text-decoration: none;
+    }
+    .terms{
+        font-size: 0.7rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .help a{
+        font-size: 0.7rem;
+        text-decoration: none;
+       
+    }
+   .help{
+    margin-top: 30px;
+    margin-left: 20px;
+
+   }
+   .new-acc{
+margin-left: 570px;
+margin-top: 40px;
+width: 300px ;
+height: 35px;
+border-radius: 4px;
+border:  1px solid grey;
+transition: background-color 0.3s;
+cursor: pointer;
+margin-bottom: 30px;
+
+
+   }
+   .new-acc:hover{
+    background-color: rgb(102, 100, 100);
+
+   }
+   .foot-panel{
+    color: black;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-left: 80px;
+    
+    }
+   .pages{
+
+    padding-top: 25px;
+    
+    }
+    .pages a {
+        text-decoration: none;
+        color: white;
+    
+    }
+    .copyright{
+    
+        padding-top: 10px;
+    }
